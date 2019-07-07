@@ -1,0 +1,355 @@
+
+.container {
+	margin:0 auto;
+	width: 1140px;
+}
+a{
+	text-decoration: none;
+}
+body {
+box-sizing: border-box
+}
+main{
+	
+}
+.logo{
+	display: block;
+	background-color: #fff;
+	width: 298px;
+	background-color: #80b7b3;
+	margin: 0 auto;
+	font-family: "PlayfairDisplay-Regular", sans-serif;
+	font-size: 68px;
+	font-weight: 400;
+	line-height: 178px;
+	text-align:center;
+	z-index: 9;
+	box-shadow: 0 19px 31px -16px #bbbbbb;
+	}
+.logo_link{
+		color: #ffffff;
+		padding: 50px 0 43px 0; 
+
+}
+.header{
+	height: 300px;
+	background-image: url(../img/story.png);
+	background-repeat: no-repeat;
+	background-position: 50% 93%;
+}
+.travel_tags{
+	text-transform: uppercase;
+	opacity: 0.6;
+	color: #273d46;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 2.8px;
+}
+.travel_title{
+	color: #273d46;
+	font-family: "PlayfairDisplay-Regular", sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 50px;
+	margin-bottom: 81px;
+}
+.travel_text{
+	opacity: 0.8;
+	color: #273d46;
+	font-family: "PlayfairDisplay-Regular", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.travel-column1{
+	width: 40%;
+	padding-right: 10px;
+}
+.btn{
+	display: inline-block;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	border-radius: 22px;
+	background-color: #80b7b3;
+	color: #ffffff;
+	font-family: 'Poppins-Medium', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	padding: 0 50px 0 30px;
+	
+}
+.btn_string{
+	background-image: url(../img/Shape_2.png);
+	background-repeat:no-repeat;
+	background-position: 90% 48%;
+
+}
+.travel{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-left:10px;
+	
+}
+.section1{
+	margin-top: 70px;
+}
+.pic{
+	border:15px solid white;
+	-webkit-box-shadow: 0px 0px 86px -42px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 86px -42px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 86px -42px rgba(0,0,0,0.75);
+}
+.pic-travel__small{
+	height: 248px;
+	margin-top: 115px;
+	z-index: 2;
+	position: relative;
+}
+.travel-colunm{
+	position: relative;
+	overflow: hidden;
+	width: 832px;
+}
+@media screen and (min-width: 1600px) {
+  .travel-colunm{
+	overflow: visible;
+
+  }
+}
+
+p+p{
+	margin-bottom: 60px;
+}
+p+p:last-child{
+	margin-bottom: 40px;
+}
+
+.pic__absolute{
+	position: absolute;
+	top:20px;
+	left:60px;
+	z-index:1;
+}
+.section1__padding{
+	padding-bottom: 150px;
+}
+.pic-travel__center{
+	height: 561px;
+}
+.pic-travel__center{
+	margin: 0 auto 96px auto;
+}
+.travel__center{
+	width: 845px;
+	margin: 0 auto;
+	
+
+}
+.travel__center .travel_tags{
+	text-align: center;
+
+}
+.travel__center .travel_title{
+		text-align: center;
+		padding:0 45px 0 45px;
+	}
+
+.pic-travel__center{
+	display:block; ;
+}
+.travel__center .travel_text{
+			padding:0 45px 0 45px;
+
+}
+.btn_center{
+	margin-left: 45px;
+}
+.travel__center__margin{
+	margin-bottom: 150px;
+}
+img.video{
+	width: 100%;
+	
+}
+.video{
+	position: relative;
+}
+.button-play{
+	background-image: url(../img/Shape_3.png);
+	background-repeat: no-repeat;
+	background-position: 55% 50%;
+	position: absolute;
+	top:50%;
+	left:50%;
+	z-index: 999;
+	background-color: #273d46;
+	width: 98px;
+	height: 98px;
+	border-radius: 50%;
+}
+.video__margin{
+	margin-bottom: 135px;
+}
+.quote .pic{
+	height: 286px;
+	
+	margin-right: 50px;
+}
+.quote .travel_tags{
+	padding-top: 30px;
+	margin-bottom: 15px;
+}
+.quote .travel_title{
+	width: 367px;
+color: #273d46;
+font-size: 36px;
+font-weight: 400;
+line-height: 50px;
+margin-top: 20px;
+
+}
+.quote{
+	position: relative;
+	width: 847px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	min-height: 580px;
+}
+.popup-quote{
+	position: absolute;
+	background-color: white;
+	width: 750px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border:15px solid white;
+	-webkit-box-shadow: 0px 0px 86px -42px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 86px -42px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 86px -42px rgba(0,0,0,0.75);	
+	z-index: 9;
+	top:254px;
+	left:225px;
+
+
+}
+.quote_text{
+	opacity: 1;
+	color: #273d46;
+	font-family: "PlayfairDisplay-Regular", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 46px;
+
+}
+.quote_author{
+	text-transform: uppercase;
+	display: block;
+	margin-top: 32px;
+	font-style: normal;
+	opacity: 0.8;
+	color: #273d46;
+	font-family: 'Poppins-Medium', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 40px;
+	letter-spacing: 2.8px;
+}
+.quote_author span{
+
+	color: #7a7b7c;
+}
+.popup-quote__wrapper{
+	position: relative;
+}
+.popup-quote .btn{
+	position: absolute;
+	top: calc(100% - 5px);
+	left:30%;
+}
+.quote__margin{
+	margin-bottom: 138px;
+}
+.footer{
+	background-image: url(../img/photo-1418065460487-3e41a6c84dc5.png);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;justify-content:center;align-items:center;
+}
+.subscribe-popup{
+	background-color: #273d46;
+	opacity:0.9;
+	width: 670px;
+	}
+.subscribe_text{
+	opacity: 0.8;
+	color: #ffffff;
+	font-family: 'Poppins-Medium', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0.64px;
+	width: 440px;
+	text-align:center;
+	margin: 45px auto 50px auto;
+
+}
+.footer_submit{
+	display: block;
+	margin: 20px auto 60px auto;
+}
+.footer_input-row{
+	width: 525px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.footer_text-input{
+	/* Style for "Rounded Re" */
+width: 249px;
+height: 48px;
+border-radius: 22px;
+border: 1px solid #fff7f4;
+background-color: #000000;
+
+opacity: 0.6;
+color: #ffffff;
+font-family: 'Poppins-Medium', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 40px;
+text-transform: uppercase;
+/* Text style for "Name" */
+letter-spacing: 2.8px;
+display: inline-block;
+
+}
+.footer_text-input {
+	margin-right: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+ .footer_text-input:focus{
+	border: 1px solid #80b7b3;
+	
+	outline: none;
+	
+}
